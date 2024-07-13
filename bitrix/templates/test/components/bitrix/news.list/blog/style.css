@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope-Bold.eot');
+    src: local('Manrope Bold'), local('Manrope-Bold'),
+        url('./fonts/Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Manrope-Bold.woff2') format('woff2'),
+        url('./fonts/Manrope-Bold.woff') format('woff'),
+        url('./fonts/Manrope-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope-Semibold.eot');
+    src: local('Manrope Semibold'), local('Manrope-Semibold'),
+        url('./fonts/Manrope-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Manrope-Semibold.woff2') format('woff2'),
+        url('./fonts/Manrope-Semibold.woff') format('woff'),
+        url('./fonts/Manrope-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope-Regular.eot');
+    src: local('Manrope Regular'), local('Manrope-Regular'),
+        url('./fonts/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Manrope-Regular.woff2') format('woff2'),
+        url('./fonts/Manrope-Regular.woff') format('woff'),
+        url('./fonts/Manrope-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope-Light.eot');
+    src: local('Manrope Light'), local('Manrope-Light'),
+        url('./fonts/Manrope-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Manrope-Light.woff2') format('woff2'),
+        url('./fonts/Manrope-Light.woff') format('woff'),
+        url('./fonts/Manrope-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope-Thin.eot');
+    src: local('Manrope Thin'), local('Manrope-Thin'),
+        url('./fonts/Manrope-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Manrope-Thin.woff2') format('woff2'),
+        url('./fonts/Manrope-Thin.woff') format('woff'),
+        url('./fonts/Manrope-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope-Medium.eot');
+    src: local('Manrope Medium'), local('Manrope-Medium'),
+        url('./fonts/Manrope-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Manrope-Medium.woff2') format('woff2'),
+        url('./fonts/Manrope-Medium.woff') format('woff'),
+        url('./fonts/Manrope-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope-ExtraBold.eot');
+    src: local('Manrope ExtraBold'), local('Manrope-ExtraBold'),
+        url('./fonts/Manrope-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Manrope-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Manrope-ExtraBold.woff') format('woff'),
+        url('./fonts/Manrope-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+.blog {
+	width: 100%;
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 100px 0;
+	font-family: "Manrope", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.1;
+	color: #2E343F;
+	background-color: #fff;
+}
+
+.blog_title {
+	margin: 0;
+	margin-bottom: 12px;
+	font-size: 54px;
+	text-align: center;
+}
+
+.blog_subtitle {
+	margin-bottom: 30px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.posts {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-bottom: 30px;
+}
+
+.post {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 513px;
+}
+
+.post__img {
+	width: 100%;
+	min-height: 334px;
+	margin-bottom: 36px;
+	background: #696969;
+}
+
+.post__info {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 0 60px 40px;
+}
+
+.post__title {
+	margin-bottom: 30px;
+	font-size: 24px;
+	line-height: 1.6;
+}
+
+.post__desc {
+	margin-bottom: 30px;
+	font-size: 16px;
+	line-height: 2;
+}
+
+.post__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: auto;
+}
+
+.post__author {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.post__author__info {
+	margin-right: 10px;
+}
+
+.post__author::before {
+	content: "";
+	display: block;
+	width: 44px;
+	height: 44px;
+	margin-right: 15px;
+	border-radius: 50%;
+	background-color: #696969;
+}
+
+.post__author__name {
+	font-size: 12px;
+}
+
+.post__author__position {
+	color: #777;
+	font-size: 12px;
+}
+
+.post__date {
+	font-size: 14px;
+	color: #777;
+}
+
+#pagination {
+	display: flex;
+	justify-content: center;
+}
+
+.load-more-items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 157px;
+	height: 52px;
+	border-radius: 100px;
+	background-color: #2F59ED;
+	color: #F9F9F9;
+	cursor: pointer;
+	user-select: none;
+}
